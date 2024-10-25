@@ -671,21 +671,19 @@ background-color: #404bbf;
         margin-bottom: 24px;
    
 }
-.modal-label-check span{
+.modal-check-span{
     width: 16px;
     height: 16px;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
     display: inline-flex;
-   justify-content: center;
-   align-items: center;
-   fill: transparent;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
-
+    justify-content: center;
+    align-items: center;
+    fill: transparent;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-check:checked + .modal-label-check span{
+.modal-check:checked + .modal-label-check .modal-check-span{
     background-color: #404bbf;
     border: none;
     fill:#F4F4FD;
