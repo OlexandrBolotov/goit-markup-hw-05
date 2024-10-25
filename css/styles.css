@@ -411,6 +411,7 @@ width: 40px;
     flex-direction: row;
     
     
+    
 }
 .footer-input{
     border: 1px solid #fff;
@@ -698,4 +699,7 @@ display: inline-flex;
         text-decoration: underline;
         text-decoration-skip-ink: none;
         color: #4d5ae5;
+}
+.footer-form-cont{
+    display: flex;
 }
