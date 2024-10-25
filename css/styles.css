@@ -671,6 +671,9 @@ background-color: #404bbf;
         margin-bottom: 24px;
    
 }
+.modal-label-check{
+    display: inline-flex;
+}
 .modal-check-span{
     width: 16px;
     height: 16px;
