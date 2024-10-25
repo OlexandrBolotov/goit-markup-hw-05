@@ -408,10 +408,8 @@ width: 40px;
 }
 .footer-email-cont{
     display: flex;
-    flex-direction: row;
-    
-    
-    
+    flex-direction: row; 
+    gap: 24px;
 }
 .footer-input{
     border: 1px solid #fff;
@@ -421,13 +419,12 @@ width: 40px;
         box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         padding: 8px 16px;
         font-size: 12px;
-        margin-right: 24px;
-            line-height: 200%;
-            letter-spacing: 0.04em;
-            color: #fff;
-            background-color: transparent;
-            outline: transparent;   
-            transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        line-height: 200%;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background-color: transparent;
+        outline: transparent;   
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-input:focus{
     border-color: #4d5ae5;
@@ -517,8 +514,7 @@ width: 40px;
     left: 50%;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(-50%, -50%);
-    padding: 24px;
-    
+    padding: 72px 24px 24px 24px;  
 }
 .modal-close{
     border-radius: 50%;
@@ -645,7 +641,7 @@ border: none;
         background: #4d5ae5;
         font-weight: 500;
         cursor: pointer;
-        min-width: 169px
+        min-width: 169px;
             font-size: 16px;
             line-height: 150%;
             letter-spacing: 0.04em;
@@ -692,7 +688,7 @@ background-color: #404bbf;
 }
 .modal-check-span{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-display: inline-flex;
+    display: inline-flex;
 }
 .link-policy{
     line-height: 133%;
