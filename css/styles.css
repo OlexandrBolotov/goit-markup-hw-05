@@ -669,10 +669,6 @@ background-color: #404bbf;
         display: flex;
         align-items: center;
         margin-bottom: 24px;
-   
-}
-.modal-label-check{
-    display: inline-flex;
 }
 .modal-check-span{
     width: 16px;
