@@ -406,7 +406,7 @@ width: 40px;
 .footer-form{
     margin-left: 80px;
 }
-.footer-email-cont{
+.footer-form-cont{
     display: flex;
     flex-direction: row; 
     gap: 24px;
